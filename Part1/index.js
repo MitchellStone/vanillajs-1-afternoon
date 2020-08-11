@@ -1,1 +1,5 @@
-console.log("potato")
+console.log("Tic Tac Toe")
+
+function play(){
+    
+}
