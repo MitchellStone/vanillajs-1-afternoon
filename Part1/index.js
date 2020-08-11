@@ -1,11 +1,15 @@
 console.log("Tic Tac Toe")
 
-function play(){
-    playerSpan = document.getElementById("player")
+let morePlay = ('')
+function play(TicId){
+ let  playerSpan = document.getElementById("player");
+ let clickedElement = document.getElementById(TicId);
     if(playerSpan.innerText === "X") {
 playerSpan.innerText = 'O';
+clickedElement.innerText = 'X';
     } else{
         playerSpan.innerText = 'X';
+        clickedElement.innerText = 'O';
     }
     
 }
