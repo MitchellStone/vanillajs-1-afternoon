@@ -13,5 +13,17 @@ morePlay[TicId] = 'X'
         clickedElement.innerText = 'O';
         morePlay[TicId] = 'O'
     }
-    
+    console.log(morePlay)
 }
+
+let topLeft = morePlay[0];
+let topMiddle = morePlay[1];
+let topRight = morePlay[2];
+let middleLeft = morePlay[3];
+let middle = morePlay[4];
+let middleRight = morePlay[5];
+let bottomLeft = morePlay[6];
+let bottomMiddle = morePlay[7];
+let bottomRight = morePlay[8];
+
+if(topLeft !== undefined && topLeft === topCenter && topLeft === topRight);
